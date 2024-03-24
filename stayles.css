@@ -10,12 +10,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 40px;
+    padding: 3em;
 }
 
 #calc {
     width: 400px;
-    padding: 15px;
+    padding: .5em;
     background-color: #c4c4c4;
     color: #000;
     display: flex;
@@ -23,8 +23,8 @@ body {
 }
 
 #calc h3 {
-    font-size: 12px;
-    font-weight: 400px;
+    font-size: .7em;
+    font-weight: 300;
     color: #666;
 }
 
@@ -34,16 +34,16 @@ body {
 
 #previous-operation {
     color: #777;
-    padding: 20px;
+    padding: 0.2em;
     overflow-wrap: break-word;
-    min-height: 16px;
+    min-height: 1.6em;
 }
 
 #current-operation {
-    min-height: 70px;
-    font-size: 30px;
+    min-height: 1.6em;
+    font-size: 3em;
     font-weight: 700px;
-    padding: 2px;
+    padding: 0.2em;
     overflow-wrap: break-word;
 }
 
@@ -56,8 +56,8 @@ body {
 #buttons-container button {
     border: 1px solid transparent;
     border-radius: o;
-    height: 90px;
-    font-size: 12px;
+    height: 4em;
+    font-size: 1.2em;
     background-color: #dbdbdb;
     cursor: pointer;
 }
